@@ -24,10 +24,10 @@ body, html{
 
 }
 .navbar .container ._1cot.logo .navbar_brand img {
-    width: 50%;
+    width: 80%;
 }
 .navbar .container ._1cot.form_timkiem{
-    width: 53.33%;
+    width: 33.33%;
     display: flex;
 
 }
@@ -47,16 +47,52 @@ body, html{
 }
 
 .navbar .container ._1cot.dangnhap_dangky{
-    width: 23.33%;
-    margin-left: 150px;
+    width: 33.33%;
+    margin-left: 100px;
     margin-right: 0px;
+    display: flex;
+    font-size: 14px;
+
 }
+
+
 .navbar .container ._1cot.dangnhap_dangky .btn-secondary{
-    background-color: #dfdfdf;
+    width: 42px;
+    height: 40px;
+    background-color: #878388;
     border: #cacaca;
-    transition: 0.4s;
-    
+
 }
+
 .navbar .container ._1cot.dangnhap_dangky .btn-secondary:hover{
     color:  #3E3A71;
+
+}
+
+
+a.dropdown-item {
+    background: #3E3A71;
+    border-radius: 4px;
+    font-size: 14px;
+    color: white;
+    padding: 9px;
+}
+.dropdown-menu {
+    padding: 11px;
+    width: 236px;
+}
+.dropdown-menu .dropdown-item:hover {
+    background-color: #878388;
+    color: white;
+
+}
+.cart-amount{
+    height: 18px;
+    width: 18px;
+    border-radius: 50%;
+    background: #CF111A;
+    font-size: 12px;
+    position: relative;
+    left: 19px;
+    bottom: 32px;
 }
