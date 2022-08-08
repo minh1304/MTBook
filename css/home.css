@@ -7,3 +7,34 @@ body, html{
     background-color:  #3E3A71;
 
 }
+.navbar{
+    background-color: white;
+
+}
+.navbar .container {
+    display: flex;
+
+
+}
+.navbar .container ._1cot{
+    width: 33.33%;
+
+
+}
+.navbar  .container .navbar_brand {
+
+
+}
+.navbar .container .navbar_brand img {
+    margin-left: -50px;
+    width: 50%;
+}
+.navbar .container .form_timkiem{
+    text-align: center;
+    width: 33.33%;
+
+}
+.navbar .container .dangnhap_dangky{
+    width: 33.33%;
+
+}
