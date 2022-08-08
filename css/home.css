@@ -7,6 +7,7 @@ body, html{
     background-color:  #3E3A71;
 
 }
+/* css cho navbar */
 .navbar{
     background-color: white;
 
@@ -16,25 +17,46 @@ body, html{
 
 
 }
-.navbar .container ._1cot{
+
+.navbar  .container ._1cot.logo {
+
     width: 33.33%;
 
-
 }
-.navbar  .container .navbar_brand {
-
-
-}
-.navbar .container .navbar_brand img {
-    margin-left: -50px;
+.navbar .container ._1cot.logo .navbar_brand img {
     width: 50%;
 }
-.navbar .container .form_timkiem{
-    text-align: center;
-    width: 33.33%;
+.navbar .container ._1cot.form_timkiem{
+    width: 53.33%;
+    display: flex;
 
 }
-.navbar .container .dangnhap_dangky{
-    width: 33.33%;
 
+.navbar .container ._1cot.form_timkiem .input{
+    width: 90%;
+    border-style: none;
+
+
+}
+
+.navbar .container ._1cot.form_timkiem .icon{
+    /* display: inline-block; */
+    margin-left: 0px;
+    width: 10%;
+
+}
+
+.navbar .container ._1cot.dangnhap_dangky{
+    width: 23.33%;
+    margin-left: 150px;
+    margin-right: 0px;
+}
+.navbar .container ._1cot.dangnhap_dangky .btn-secondary{
+    background-color: #dfdfdf;
+    border: #cacaca;
+    transition: 0.4s;
+    
+}
+.navbar .container ._1cot.dangnhap_dangky .btn-secondary:hover{
+    color:  #3E3A71;
 }

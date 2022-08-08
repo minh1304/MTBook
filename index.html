@@ -13,7 +13,7 @@
 </head>
 <body>
     <!-- header -->
-    <div class="navbar">
+    <div class="navbar navbar-expand ">
         <div class="container">
             <!-- logo -->
             <div class="_1cot logo">
@@ -22,20 +22,65 @@
             
             <!-- form tìm kếm -->
             <div class="_1cot form_timkiem">
-                <div class="input-group">
+                <!-- <div class="input-group">
                     <input type="text" class="form-control"
                     placeholder="Nhập sách cần tìm kiếm...">
                 <div class="input-group-append">
                     <button type="button" class="btn" style="background-color: #3E3A71; color: white;">
                         <i class="fa fa-search"></i>
                     </button>
+                </div> -->
+
+                <div class="input">
+                    <input type="text" class="form-control"
+                    placeholder="Nhập sách cần tìm kiếm...">
                 </div>
-                <!-- <h2>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat et deleniti rem nisi earum, facilis accusantium qui quasi odio odit vitae possimus iure similique nobis ipsum est in, non excepturi.</h2> -->
+                <div class="icon">
+                    <button  type="button" class="btn" style="background-color: #3E3A71; color: white;">
+                        <i class="fa fa-search"></i>
+                    </button>
+                </div>
 
             </div>
-            <!-- Đăng nập, đăng ký, giỏ hàng -->
+            <!-- Đăng nhập, đăng ký, giỏ hàng -->
             <div class="_1cot dangnhap_dangky">
-                <h2>Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio deleniti itaque commodi nulla, ad quam non! Quae, ab esse voluptates quam recusandae in mollitia deserunt rem tempore, sunt magni nihil!</h2>
+                <ul class="navbar-nav mb-1 ml-auto">
+                    <div class="dropdown">
+                        <li class="nav-item account" type="button" class="btn dropdown" data-toggle="dropdown">
+                            <a href="#" class="btn btn-secondary rounded-circle">
+                                <i class="fa fa-user"></i>
+                            </a>
+                            <a class="nav-link text-dark text-uppercase" href="#" style="display:inline-block">Tài
+                                khoản</a>
+                        </li>
+                        <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                            <a class="dropdown-item nutdangky text-center mb-2" href="#" data-toggle="modal"
+                                data-target="#formdangky">Đăng ký</a>
+                            <a class="dropdown-item nutdangnhap text-center" href="#" data-toggle="modal"
+                                data-target="#formdangnhap">Đăng nhập</a>
+                        </div>
+                    </div>
+
+                    
+
+
+
+
+
+
+
+
+                    <!-- <li class="nav-item giohang">
+                        <a href="gio-hang.html" class="btn btn-secondary rounded-circle">
+                            <i class="fa fa-shopping-cart"></i>
+                            <div class="cart-amount">0</div>
+                        </a>
+                        <a class="nav-link text-dark giohang text-uppercase" href="gio-hang.html"
+                            style="display:inline-block">Giỏ
+                            Hàng</a>
+                    </li> -->
+                </ul> 
+                
             </div>
 
 
