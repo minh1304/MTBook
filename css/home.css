@@ -7,19 +7,32 @@ body, html{
     /* background-color:  #3E3A71; */
     background-color: gray;
     width: 100%;
+    overflow-x: hidden;
 
 }
 /* css cho navbar */
 .navbar{
     background-color: white;
-    height: 150px;
+    height: 130px;
     width: 100%;
     padding: 50px 0px;
+    transition: all 0.4s ease-in-out;
+    /* position: fixed;
+    top: 0;
+    left: 0; */
 
+
+}
+.giunguyen {
+
+    height: 100px;
+    padding: 10px 0px;
+    position: fixed;
+    box-shadow: 0px 5px 15px rgba(0,0, 0, 0.5);
 }
 .navbar .container {
     display: flex;
-
+    box-sizing: border-box;
 
 }
 
@@ -29,7 +42,7 @@ body, html{
 
 }
 .navbar .container ._1cot.logo .navbar_brand img {
-    width: 80%;
+    width: 60%;
 }
 .navbar .container ._1cot.form_timkiem{
     width: 33.33%;
@@ -101,26 +114,39 @@ a.dropdown-item {
     left: 19px;
     bottom: 32px;
 }
-.duoiheader-expand{
+.duoiheader{
     background-color: #3E3A71;
     height: 50px;
     width: 100%;
     padding: 15px 0px;
+    box-sizing: border-box;
+    display: block;
+    transition: 0.4s;
 }
-.duoiheader-expand .row{
-    margin-left: 100px;
+.duoiheader .row{
     color: white;
     display: flex;
     width: 100%;
-}
-.duoiheader-expand .row .col{
-    display: flex;
-    width: 200px;
-    
+
 }
 
-.duoiheader-expand .row .col a{
+.col {
+    color: white;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+
+}
+.duoiheader .row .col a{
     color: white;
     margin-right: 10px;
     text-decoration: none;
 }
+
+
+
+
+
+
+
+
