@@ -101,26 +101,26 @@ a.dropdown-item {
     left: 19px;
     bottom: 32px;
 }
-.duoiheader{
+.duoiheader-expand{
     background-color: #3E3A71;
+    height: 50px;
     width: 100%;
-    height: 40px;
-    padding: 8px 8px;
-    box-sizing: border-box;
+    padding: 15px 0px;
 }
-.duoiheader .row{
+.duoiheader-expand .row{
     margin-left: 100px;
     color: white;
     display: flex;
     width: 100%;
 }
-.duoiheader .row .col{
+.duoiheader-expand .row .col{
     display: flex;
     width: 200px;
     
 }
 
-.duoiheader .row .col a{
+.duoiheader-expand .row .col a{
     color: white;
     margin-right: 10px;
+    text-decoration: none;
 }
