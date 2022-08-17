@@ -147,12 +147,17 @@ a.dropdown-item {
     margin-top: 100px;
     float: right;
     align-items: center;
+    color: white;
+    /* display: grid; */
+    /* margin-right: -150px; */
+    position: fixed
+    
 
 
 }
 ._1khoi .tel{
     display: flex;
-    padding-bottom: 10px;
+    padding-bottom: 15px;
 
 
 
@@ -165,9 +170,10 @@ a.dropdown-item {
 
 } 
 ._1khoi .tel span {
+    /* căn giữa theo chiều dọc của icon */
     display: flex;
     align-items: center;
-    margin-right: 1px;
+    margin-right: 10px;
 
 } 
 /* ._1khoi .icon {
