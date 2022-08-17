@@ -4,6 +4,8 @@
     font-family: 'Roboto', sans-serif;   
 }
 
+.icon {}
+
 
 body, html{
     /* background-color:  #3E3A71; */
@@ -155,20 +157,34 @@ a.dropdown-item {
 }
 ._1khoi .tel{
     display: flex;
-    padding-bottom: 15px;
-
-
-
+    padding-bottom: 20px;
 } 
 
-._1khoi .tel .icon img {
+._1khoi .tel .icon img.icontel{
     /* right: 0%; */
-    width: 25%;
+    width: 20%;
     border-radius: 50%;
     cursor: pointer;
 
 
 
+} 
+._1khoi .tel .icon img.iconemail{
+    /* right: 0%; */
+    width: 20%;
+    border-radius: 50%;
+    cursor: pointer;
+
+
+
+} 
+._1khoi .tel .icon img.iconfb {
+    /* right: 0%; */
+    width: 20%;
+    border-radius: 50%;
+    cursor: pointer;
+    /* margin-left: -10px; */
+    margin-right: -290px;
 } 
 ._1khoi .tel{
     position: relative;
