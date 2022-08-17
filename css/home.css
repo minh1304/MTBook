@@ -189,11 +189,11 @@ a.dropdown-item {
 ._1khoi .tel{
     position: relative;
 }
-._1khoi .tel:hover span{
+._1khoi .tel .icon:hover span{
     opacity: 1;
 }
 
-._1khoi .tel span {
+._1khoi .tel .icon span {
     /* cÄƒn giá»¯a theo chiá»u dá»c cá»§a icon */
     display: flex;
     align-items: center;
