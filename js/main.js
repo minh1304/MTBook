@@ -32,17 +32,18 @@ document.addEventListener("DOMContentLoaded",function(){
     })
 
     hienbang1.onclick = function() {
-        // test2.classList.add('black');
+        bang2.classList.remove('hienbang');
         bang1.classList.add('hienbang');
-        // test.classList.add('black');
-        // bang.classList.remove('black');
+
+
 
     };
     hienbang2.onclick = function() {
         // test2.classList.add('black');
+        bang1.classList.remove('hienbang');
         bang2.classList.add('hienbang');
-        // test.classList.add('black');
-        // bang.classList.remove('black');
+
+
 
     };
     closebang1.onclick = function (){ 
