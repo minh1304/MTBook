@@ -6,7 +6,7 @@ document.addEventListener("DOMContentLoaded",function(){
     var bang1 = document.querySelector('.bang1');
     var bang2 = document.querySelector('.bang2');
     var closebang1 = document.querySelector('.bang1 .nutclose1');
-    var closebang2 = document.querySelector('.bang1 .nutclose2');
+    var closebang2 = document.querySelector('.bang2 .nutclose2');
 
     var test = document.querySelector('body');
 
@@ -38,9 +38,20 @@ document.addEventListener("DOMContentLoaded",function(){
         // bang.classList.remove('black');
 
     };
+    hienbang2.onclick = function() {
+        // test2.classList.add('black');
+        bang2.classList.add('hienbang');
+        // test.classList.add('black');
+        // bang.classList.remove('black');
+
+    };
     closebang1.onclick = function (){ 
         bang1.classList.remove('hienbang');
         // test.classList.remove('black');
+
+    };
+    closebang2.onclick = function (){ 
+        bang2.classList.remove('hienbang');
 
     };
 

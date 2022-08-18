@@ -259,34 +259,8 @@ a.dropdown-item {
     display: block;
     
 }
-.bang2 {
-    background-color: rgb(250, 247, 247);
-    color: black;
-    opacity: 0;
-    position: absolute;
-    text-align: center;
-    width: 450px;
-    
-    position: fixed;
-
-    top: 50%;
-
-    left: auto;
 
 
-    padding: 30px 10px;
-
-    border-radius: 20px;
-
-    box-sizing: border-box;
-    display: block;
-    
-}
-.hienbang{
-
-opacity: 1;
-
-}
 .bang1 .nutclose1 {
     /* font-size: 17px; */
     float: right;
@@ -313,12 +287,51 @@ opacity: 1;
     margin-left: -47px;
     /* align-items: center; */
 }
-.bang .khoinho .noidungkhoinho span {
+.bang1 .khoinho .noidungkhoinho span {
     /* padding: 36px; */
     display: block;
     margin-top: -20px;
     margin-left: -123px;
 }
+
+
+.bang2 {
+    background-color: rgb(250, 247, 247);
+    color: black;
+    opacity: 0;
+    position: absolute;
+    text-align: center;
+    width: 450px;
+    
+    position: fixed;
+
+    top: 50%;
+
+    left: auto;
+
+
+    padding: 30px 10px;
+
+    border-radius: 20px;
+
+    box-sizing: border-box;
+    display: block;
+    
+}
+.bang2 .nutclose2 {
+    /* font-size: 17px; */
+    float: right;
+    margin-top: -55px;
+    margin-right: -4px;
+    display: block;
+    cursor: pointer;
+    z-index: 12;
+}
+.hienbang{
+
+    opacity: 1;
+    
+    }
 /* 
 .black { } */
 /* .black {
