@@ -34,6 +34,7 @@ body, html{
     background-color: gray;
     width: 100%;
     overflow-x: hidden;
+    z-index: 1;
 
 }
 /* css cho navbar */
@@ -262,6 +263,7 @@ padding: 30px 10px;
 border-radius: 20px;
 
 box-sizing: border-box;
+display: block;
 }
 .bang .nutclose {
     /* font-size: 17px; */
@@ -270,7 +272,7 @@ box-sizing: border-box;
     margin-right: -4px;
     display: block;
     cursor: pointer;
-    /* z-index: 12; */
+    z-index: 12;
 }
 .bang .khoinho {
     display: flex;
@@ -294,5 +296,12 @@ box-sizing: border-box;
     display: block;
     margin-top: -20px;
     margin-left: -123px;
+}
+/* 
+.black { } */
+.black {
+    background-color:#f8f8fc;
+    opacity: 0.5;
+    z-index: 1;
 }
 /* háº¿t khi click nd bÃªn pháº£i */
