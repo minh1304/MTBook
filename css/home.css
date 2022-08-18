@@ -237,7 +237,7 @@ a.dropdown-item {
 
 
 /* Khi click cÃ¡c nd bÃªn pháº£i */
-.bang {
+.bang1 {
     background-color: rgb(250, 247, 247);
     color: black;
     opacity: 0;
@@ -245,27 +245,49 @@ a.dropdown-item {
     text-align: center;
     width: 450px;
     
+    position: fixed;
+
+    top: 40%;
+
+    left: auto;
+
+    padding: 30px 10px;
+
+    border-radius: 20px;
+
+    box-sizing: border-box;
+    display: block;
+    
 }
-.hienbang1{
+.bang2 {
+    background-color: rgb(250, 247, 247);
+    color: black;
+    opacity: 0;
+    position: absolute;
+    text-align: center;
+    width: 450px;
+    
+    position: fixed;
+
+    top: 50%;
+
+    left: auto;
+
+
+    padding: 30px 10px;
+
+    border-radius: 20px;
+
+    box-sizing: border-box;
+    display: block;
+    
+}
+.hienbang{
 
 opacity: 1;
 
-position: fixed;
-
-top: 50%;
-
-left: auto;
-
-z-index: 5;
-
-padding: 30px 10px;
-
-border-radius: 20px;
-
-box-sizing: border-box;
-display: block;
 }
-.bang .nutclose {
+.bang1 .nutclose1 {
     /* font-size: 17px; */
     float: right;
     margin-top: -55px;
@@ -274,18 +296,18 @@ display: block;
     cursor: pointer;
     z-index: 12;
 }
-.bang .khoinho {
+.bang1 .khoinho {
     display: flex;
     padding-bottom: 20px;
     /* box-sizing: border-box; */
 }
-.bang .khoinho .icontel img{
+.bang1 .khoinho .icontel img{
     margin-left: -40px;
     width: 34%;
     border: 1px solid #ff8e33;
     border-radius: 20%;
 } 
-.bang .khoinho .noidungkhoinho {
+.bang1 .khoinho .noidungkhoinho {
     margin-top: -3px;
     display: block;
     margin-left: -47px;
@@ -299,9 +321,9 @@ display: block;
 }
 /* 
 .black { } */
-.black {
+/* .black {
     background-color:#f8f8fc;
     opacity: 0.5;
     z-index: 1;
-}
+} */
 /* háº¿t khi click nd bÃªn pháº£i */
