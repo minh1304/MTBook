@@ -301,22 +301,14 @@ a.dropdown-item {
     opacity: 0;
     position: absolute;
     text-align: center;
-    width: 450px;
-    
+    width: 550px;
     position: fixed;
-
-    top: 50%;
-
+    top: auto;
     left: auto;
-
-
     padding: 30px 10px;
-
     border-radius: 20px;
-
     box-sizing: border-box;
     display: block;
-    
 }
 .bang2 .nutclose2 {
     /* font-size: 17px; */
