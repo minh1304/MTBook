@@ -8,7 +8,13 @@ document.addEventListener("DOMContentLoaded",function(){
     var closebang1 = document.querySelector('.bang1 .nutclose1');
     var closebang2 = document.querySelector('.bang2 .nutclose2');
 
-    var test = document.querySelector('body');
+    var thongtin = document.getElementById('name');
+    var test = document.getElementById('test');
+    console.log(test);
+
+
+
+    // var test = document.querySelector('body');
 
 
     window.addEventListener('scroll',function(){
@@ -55,6 +61,18 @@ document.addEventListener("DOMContentLoaded",function(){
         bang2.classList.remove('hienbang');
 
     };
+
+    test.onclick() = function() {
+        if (thongtin.value =="") {
+            console.log("chua nhap");
+        }
+        else {thongtin.value != "" }
+        {
+            console.log("nhap roi");
+        }
+
+    }
+
 
 
 

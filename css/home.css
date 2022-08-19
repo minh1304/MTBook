@@ -4,6 +4,14 @@
     font-family:'Segoe UI';
 }
 
+input#name {margin-left: -75px;border-radius: 5px;/* overflow: hidden; *//* list-style: none; *//* border-collapse: collapse; *//* text-decoration: none; */border-end-start-radius: none;border-style: solid;border: 1px solid #007aff;}
+
+label {margin-left: -190px;display: block;}
+
+.pd-mail_label {
+    margin-left: -159px;
+}
+
 img {
     /* margin-left: -40px; */
 }
@@ -18,7 +26,7 @@ img {
     /* right: -147px; */
 }
 
-h4 {font-size: 20px;margin-left: -65px;font-weight: bold;margin-top: 0px;/* display: block; */box-sizing: border-box;}
+h4 {font-size: 20px;/* margin-left: -65px; */font-weight: bold;margin-top: 0px;/* text-align: center; */justify-content: center;display: flex;/* display: block; */box-sizing: border-box;}
 
 h4 {}
 
@@ -324,6 +332,11 @@ a.dropdown-item {
     opacity: 1;
     
     }
+.pd-mail_label p{
+    opacity: 0;
+
+}
+    
 /* 
 .black { } */
 /* .black {
