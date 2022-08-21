@@ -4,13 +4,7 @@
     font-family:'Segoe UI';
 }
 
-input#name {margin-left: -75px;border-radius: 5px;/* overflow: hidden; *//* list-style: none; *//* border-collapse: collapse; *//* text-decoration: none; */border-end-start-radius: none;border-style: solid;border: 1px solid #007aff;}
 
-label {margin-left: -190px;display: block;}
-
-.pd-mail_label {
-    margin-left: -159px;
-}
 
 img {
     /* margin-left: -40px; */
@@ -142,7 +136,7 @@ a.dropdown-item {
     border-radius: 50%;
     background: #CF111A;
     font-size: 12px;
-    position: relative;
+    /* position: relative; */
     left: 19px;
     bottom: 32px;
 }
@@ -206,6 +200,7 @@ a.dropdown-item {
     width: 20%;
     border-radius: 50%;
     cursor: pointer;
+    position: relative;
 
 
 
@@ -217,6 +212,7 @@ a.dropdown-item {
     cursor: pointer;
     /* margin-left: -10px; */
     margin-right: -290px;
+    position: relative;
 } 
 ._1khoi .tel{
     position: relative;
@@ -252,29 +248,21 @@ a.dropdown-item {
     position: absolute;
     text-align: center;
     width: 450px;
-    
     position: fixed;
-
     top: 40%;
-
     left: auto;
-
     padding: 30px 10px;
-
     border-radius: 20px;
-
     box-sizing: border-box;
     display: block;
-    
 }
 
 
 .bang1 .nutclose1 {
-    /* font-size: 17px; */
     float: right;
-    margin-top: -55px;
+    margin-top: -12%;
     margin-right: -4px;
-    display: block;
+    /* display: block; */
     cursor: pointer;
     z-index: 12;
 }
@@ -311,7 +299,7 @@ a.dropdown-item {
     text-align: center;
     width: 550px;
     position: fixed;
-    top: auto;
+    top: 30%;
     left: auto;
     padding: 30px 10px;
     border-radius: 20px;
@@ -319,9 +307,8 @@ a.dropdown-item {
     display: block;
 }
 .bang2 .nutclose2 {
-    /* font-size: 17px; */
     float: right;
-    margin-top: -55px;
+    margin-top: -6%;
     margin-right: -4px;
     display: block;
     cursor: pointer;
@@ -332,10 +319,17 @@ a.dropdown-item {
     opacity: 1;
     
     }
-.pd-mail_label p{
+/* .pd-mail_label p{
     opacity: 0;
 
-}
+} */
+/* input#name {margin-left: -75px;border-radius: 5px;border-end-start-radius: none;border-style: solid;border: 1px solid #007aff;}
+
+label {margin-left: -190px;display: block;} */
+
+/* .pd-mail_label {
+    margin-left: -159px;
+} */
     
 /* 
 .black { } */
