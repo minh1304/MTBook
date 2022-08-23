@@ -190,7 +190,7 @@ span.pd-label.pd-tel.pd-tooltip-text {
     transition: 0.5s;
 
 }
-.pd-overlay {
+.pd-overlay{
     position: fixed;
     left: 0;
     top: 0;
@@ -234,6 +234,13 @@ span.pd-label.pd-tel.pd-tooltip-text {
     cursor: pointer;
 }
 
+
+.pd-close, .pd-close-tawk {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    cursor: pointer;
+}
 .pd-tel-window .pd-body {
     padding-top: 28px;
 }
