@@ -65,17 +65,6 @@ document.addEventListener("DOMContentLoaded",function(){
 
     };
 
-    // test.onclick() = function() {
-    //     if (thongtin.value =="") {
-    //         console.log("chua nhap");
-    //     }
-    //     else {thongtin.value != "" }
-    //     {
-    //         console.log("nhap roi");
-    //     }
-
-    // }
-
 
 
 

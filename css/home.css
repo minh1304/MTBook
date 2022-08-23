@@ -136,7 +136,7 @@ a.dropdown-item {
     border-radius: 50%;
     background: #CF111A;
     font-size: 12px;
-    /* position: relative; */
+    position: relative;
     left: 19px;
     bottom: 32px;
 }
