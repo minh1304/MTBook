@@ -28,8 +28,6 @@ p {
     font-weight: bold;
 }
 
-.icon {}
-
 
 body, html{
     /* background-color:  #3E3A71; */
@@ -132,8 +130,7 @@ a.dropdown-item {
 }
 .cart-amount{
     height: 18px;
-    width: 18px;
-    border-radius: 50%;
+    width: 18px;    border-radius: 50%;
     background: #CF111A;
     font-size: 12px;
     position: relative;
@@ -168,174 +165,85 @@ a.dropdown-item {
     margin-right: 10px;
     text-decoration: none;
 }
-.pd_bar {
-}
-._1khoi {
-    align-items: center;
-    color: white;
-    position: fixed;
-    top: 350px;
-    right: -140px;
-    
 
 
-}
-._1khoi .tel{
-    display: flex;
-    padding-bottom: 20px;
-} 
 
-._1khoi .tel .icon img.icontel{
-    /* right: 0%; */
-    width: 20%;
-    border-radius: 50%;
+
+.pushdy-widget-button {
+    margin: 5px auto;
     cursor: pointer;
-    position: relative;
-
-
-
-} 
-._1khoi .tel .icon img.iconemail{
-    /* right: 0%; */
-    width: 20%;
+    background-size: 100%;
     border-radius: 50%;
-    cursor: pointer;
     position: relative;
 
-
-
-} 
-._1khoi .tel .icon img.iconfb {
-    /* right: 0%; */
-    width: 20%;
-    border-radius: 50%;
-    cursor: pointer;
-    /* margin-left: -10px; */
-    margin-right: -290px;
-    position: relative;
-} 
-._1khoi .tel{
-    position: relative;
 }
-._1khoi .tel .icon:hover span{
+
+span.pd-label.pd-tel.pd-tooltip-text {
+    margin-left: -85px;
+    border-radius: 5px;
+    padding: 7px 7px;
+    position: absolute;
+    opacity: 0;
+}
+.pushdy-widget-button.pd-tel:hover span{
     opacity: 1;
+    transition: 0.5s;
+
 }
-
-._1khoi .tel .icon span {
-    /* cÃ„Æ’n giÃ¡Â»Â¯a theo chiÃ¡Â»Âu dÃ¡Â»Âc cÃ¡Â»Â§a icon */
-    display: flex;
-    align-items: center;
-    /* margin-right: -74px; */
-    margin-left: -122px;
-    border: 1px solid;
-    border-radius: 20px;
-    padding: 15px;
-    background: #3e3a71;
-    opacity: 0;
-    position: absolute;
-    top: 1px;
-    right: 300px;
-    /* left: -80px; */
-} 
-
-
-
-/* Khi click cÃ¡c nd bÃªn pháº£i */
-.bang1 {
-    background-color: rgb(250, 247, 247);
-    color: black;
-    opacity: 0;
-    position: absolute;
-    text-align: center;
-    width: 450px;
+.pd-overlay {
     position: fixed;
-    top: 40%;
-    left: auto;
-    padding: 30px 10px;
-    border-radius: 20px;
-    box-sizing: border-box;
-    display: block;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 999999;
+    display: none;
 }
-
-
-.bang1 .nutclose1 {
-    float: right;
-    margin-top: -12%;
-    margin-right: -4px;
-    /* display: block; */
-    cursor: pointer;
-    z-index: 12;
+.pd-shadow{
+    background-color: #2f2f2f;
+    opacity: .3;
+    width: 100%;
+    height: 100%;
 }
-.bang1 .khoinho {
-    display: flex;
-    padding-bottom: 20px;
-    /* box-sizing: border-box; */
-}
-.bang1 .khoinho .icontel img{
-    margin-left: -40px;
-    width: 34%;
-    border: 1px solid #ff8e33;
-    border-radius: 20%;
-} 
-.bang1 .khoinho .noidungkhoinho {
-    margin-top: -3px;
-    display: block;
-    margin-left: -47px;
-    /* align-items: center; */
-}
-.bang1 .khoinho .noidungkhoinho span {
-    /* padding: 36px; */
-    display: block;
-    margin-top: -20px;
-    margin-left: -123px;
-}
-
-
-.bang2 {
-    background-color: rgb(250, 247, 247);
-    color: black;
-    opacity: 0;
+.pd-tel-window {
+    width: 95%!important;
+    max-width: 438px;
     position: absolute;
-    text-align: center;
-    width: 550px;
-    position: fixed;
-    top: 30%;
-    left: auto;
-    padding: 30px 10px;
-    border-radius: 20px;
-    box-sizing: border-box;
-    display: block;
+    height: auto!important;
+    background-color: #fff!important;
+    -webkit-animation-name: aml-ease-in-out;
+    -webkit-animation-duration: .5s;
+    animation-name: aml-ease-in-out;
+    animation-duration: .5s;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%,-50%);
+    transform: translate(-50%,-50%);
+    border-radius: 15px!important;
+    -webkit-box-shadow: 0 0 16px 0 rgba(0,0,0,.16)!important;
+    box-shadow: 0 0 16px 0 rgba(0,0,0,.16)!important;
+    overflow: hidden;
 }
-.bang2 .nutclose2 {
-    float: right;
-    margin-top: -6%;
-    margin-right: -4px;
-    display: block;
+
+.pd-close-tawk {
+    width: 22px;
+    height: 22px;
+    line-height: 0;
+    padding: 0!important;
+    background-image: url(https://sdk.pushdi.com/image/ico/icon_close.png);
     cursor: pointer;
-    z-index: 12;
 }
-.hienbang{
 
-    opacity: 1;
-    
-    }
-/* .pd-mail_label p{
-    opacity: 0;
-
-} */
-/* input#name {margin-left: -75px;border-radius: 5px;border-end-start-radius: none;border-style: solid;border: 1px solid #007aff;}
-
-label {margin-left: -190px;display: block;} */
-
-/* .pd-mail_label {
-    margin-left: -159px;
-} */
-    
-/* 
-.black { } */
-/* .black {
-    background-color:#f8f8fc;
-    opacity: 0.5;
-    z-index: 1;
-} */
-/* háº¿t khi click nd bÃªn pháº£i */
+.pd-tel-window .pd-body {
+    padding-top: 28px;
+}
+.pd-body{
+    font-size: 15px;
+    color: #707070;
+    line-height: 18px;
+    content: "";
+    clear: both;
+    display: block;
+    height: 100%;
+    padding: 0;
+}
