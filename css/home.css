@@ -254,3 +254,27 @@ span.pd-label.pd-tel.pd-tooltip-text {
     height: 100%;
     padding: 0;
 }
+.pd-tel-head {
+    padding: 0 28px 28px;
+}
+.pd-tel-head-title {
+    max-width: 350px;
+    /* font-family: 'Roboto',sans-serif!important; */
+    font-size: 20px!important;
+    font-weight: 700!important;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.3!important;
+    letter-spacing: normal;
+    text-align: left;
+    color: #36373a;
+    -webkit-line-clamp: 2;
+    overflow: hidden;
+}
+.pd-tel-phone-number {
+    margin: 15px 0 0!important;
+    padding: 0!important;
+    max-height: 270px!important;
+    overflow-y: auto!important;
+    overflow-x: hidden!important;
+}
