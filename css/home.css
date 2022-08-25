@@ -179,7 +179,7 @@ a.dropdown-item {
 }
 
 span.pd-label.pd-tel.pd-tooltip-text {
-    margin-left: -85px;
+    right: 60px;
     border-radius: 5px;
     padding: 7px 7px;
     position: absolute;
@@ -411,4 +411,39 @@ span.pd-label.pd-tel.pd-tooltip-text {
     color: red;
     margin-top: 7px!important;
     height: 15px;
+}
+
+
+.pd-label.pd-tooltip-text {
+    position: absolute;
+    top: calc(50% - 16px);
+    z-index: 1;
+    -o-object-fit: contain;
+    object-fit: contain;
+    font-size: 12px!important;
+    line-height: 16px!important;
+    text-align: center;
+    white-space: nowrap;
+    border-radius: 4px;
+    padding: 8px;
+    -webkit-box-shadow: 0 6px 10px 0 rgb(0 0 0 / 9%);
+    box-shadow: 0 6px 10px 0 rgb(0 0 0 / 9%);
+    background-color: #fff;
+    opacity: 0;
+    -webkit-transition: opacity .5s;
+    transition: opacity .5s;
+}
+
+span.pd-label.pd-mail.pd-tooltip-text {
+    border-radius: 5px;
+    padding: 7px 7px;
+    position: absolute;
+    opacity: 0;
+    /* margin-right: 106px; */
+    right: 60px;
+}
+.pushdy-widget-button.pd-mail:hover span{
+    opacity: 1;
+    transition: 0.5s;
+
 }
