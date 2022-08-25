@@ -196,7 +196,8 @@ span.pd-label.pd-tel.pd-tooltip-text {
     top: 0;
     width: 100%;
     height: 100%;
-    z-index: 999999;
+    /* để lên cao nó sẽ kh tác động đc phía dưới */
+    z-index: 999999; 
     display: none;
 }
 .pd-shadow{

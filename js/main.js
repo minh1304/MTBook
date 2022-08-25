@@ -8,7 +8,8 @@ document.addEventListener("DOMContentLoaded",function(){
     var noidunghienlen2 = document.getElementById('pd-popupMail-container');
     console.log(noidunghienlen2);
 
-    var tatnoidung = document.querySelector('.pd-close-tawk');
+    var tatnoidung = document.querySelectorAll('.pd-close-tawk');
+    console.log(tatnoidung);
 
 
     window.addEventListener('scroll',function(){
@@ -41,9 +42,28 @@ document.addEventListener("DOMContentLoaded",function(){
         noidunghienlen2.style.display = 'block';
     });
 
-    tatnoidung.onclick = function() {
-        noidunghienlen.style.display = 'none';
+    // if(noidunghienlen.style.display == 'block')
+    // {
 
+    //     tatnoidung[0].onclick = function() {
+    //         noidunghienlen.style.display = 'none';
+        
+    //     }
+    // }
+    // else if(noidunghienlen2.style.display == 'block') {
+    //     tatnoidung[1].onclick = function() {
+    //         noidunghienlen.style.display = 'none';
+
+    //     }
+    // }
+    tatnoidung[0].onclick = function() {
+        noidunghienlen.style.display = 'none';
     }
+    tatnoidung[1].onclick = function() {
+        noidunghienlen2.style.display = 'none';
+    }
+
+
+
 
 },false)
