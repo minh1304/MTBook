@@ -32,9 +32,6 @@ document.addEventListener("DOMContentLoaded",function(){
     nut.addEventListener('click',function(){
         console.log('ahihi');
         noidunghienlen.style.display = 'block';
-
-
-
     });
     tatnoidung.onclick = function() {
         noidunghienlen.style.display = 'none';

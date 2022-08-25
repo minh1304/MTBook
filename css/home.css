@@ -278,3 +278,88 @@ span.pd-label.pd-tel.pd-tooltip-text {
     overflow-y: auto!important;
     overflow-x: hidden!important;
 }
+
+.pd-tel-phone-number a{ 
+    text-decoration: none;
+    display: flex;
+
+}
+.pd-tel-phone-item {
+    display: -webkit-box!important;
+    display: -ms-flexbox!important;
+    display: flex!important;
+    -webkit-box-pack: start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+    text-decoration: none;
+    cursor: pointer;
+}
+.item-avt {
+    background-image: url(https://sdk.pushdi.com/image/maxlead/icon-call-il.png);
+    -webkit-box-shadow: 0 3px 10px 0 rgb(25 25 25 / 16%);
+    box-shadow: 0 3px 10px 0 rgb(25 25 25 / 16%);
+    border: solid .5px #ffdb78;
+    background-color: #fffde6;
+}
+.item-avt, .item-avt-zalo {
+    width: 40px!important;
+    height: 40px!important;
+    margin: auto 10px auto 0;
+    border-radius: 13px;
+    background-size: contain;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+.item-inf {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    border-bottom: solid 1px #f5f5f5;
+    width: calc(100% - 60px);
+    padding: 15px 0;
+}
+.pd-tel-phone-item .item-inf p {
+    font-weight: 500!important;
+    color: #36373a;
+}
+
+.pd-tel-phone-item .item-inf span {
+    font-weight: 400;
+    color: #6a6a6a;
+    text-decoration: none;
+    margin-left: 0;
+}
+.pd-tel-phone-item .item-inf span, .pd-tel-phone-item .item-inf p {
+    font-stretch: normal;
+    font-style: normal;
+    letter-spacing: normal;
+    text-align: left;
+}
+.pd-tel-phone-item .item-inf span, .pd-tel-phone-item .item-inf p, .pd-tel-tail-title {
+    font-family: 'Roboto',sans-serif!important;
+    font-size: 18px!important;
+    line-height: 1.33!important;
+}
+.pd-body p {
+    margin: 0;
+    line-height: 18px;
+}
+
+.pd-tel-tail {
+    padding: 0 28px 12px;
+}
+.pd-tel-tail-title {
+    font-weight: 700!important;
+    font-stretch: normal!important;
+    font-style: normal!important;
+    letter-spacing: normal!important;
+    text-align: left!important;
+    color: #36373a;
+}
