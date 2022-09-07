@@ -6,15 +6,11 @@ document.addEventListener("DOMContentLoaded",function(){
     var noidunghienlen = document.querySelector('.pd-overlay');
     var noidunghienlen2 = document.getElementById('pd-popupMail-container');
     var tatnoidung = document.querySelectorAll('.pd-close-tawk');
-
-
-
     var nutt = document.querySelectorAll('.pushdy-widget-button');
     console.log(nutt);
-
-
     var ndhl= document.querySelectorAll('.pd-overlay');
     console.log(ndhl);
+
     window.addEventListener('scroll',function(){
         if(this.window.pageYOffset >150)
         {
@@ -34,6 +30,26 @@ document.addEventListener("DOMContentLoaded",function(){
             }
         }
     })
+
+        // Get the button:
+    let mybutton = document.getElementById("myBtn");
+
+    // When the user scrolls down 20px from the top of the document, show the button
+    window.onscroll = function() {scrollFunction()};
+
+    function scrollFunction() {
+    if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+        mybutton.style.display = "block";
+    } else {
+        mybutton.style.display = "none";
+    }
+    }
+
+    // When the user clicks on the button, scroll to the top of the document
+    function topFunction() {
+    document.body.scrollTop = 0; // For Safari
+    document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+    }
 
     //Hiện nội dung thanh bên phải (tel vs amil)
 
