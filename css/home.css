@@ -30,7 +30,7 @@ p {
 
 
 body, html{
-    /* background-color:  #3E3A71; */
+    /* background-color:  #494679; */
     background-color: gray;
     width: 100%;
     overflow-x: hidden;
@@ -107,13 +107,13 @@ body, html{
 }
 
 .navbar .container ._1cot.dangnhap_dangky .btn-secondary:hover{
-    color:  #3E3A71;
+    color:  #494679;
 
 }
 
 
 a.dropdown-item {
-    background: #3E3A71;
+    background: #494679;
     border-radius: 4px;
     font-size: 14px;
     color: white;
@@ -138,7 +138,7 @@ a.dropdown-item {
     bottom: 32px;
 }
 .duoiheader{
-    background-color: #3E3A71;
+    background-color: #494679;
     height: 50px;
     width: 100%;
     padding: 15px 0px;
