@@ -4,10 +4,6 @@
     font-family:'Segoe UI';
 }
 
-.sub_header {
-    width: 100%;
-    height: 40%;
-}
 
 li.nav-item.giohang {
     /* text-decoration: none; */
@@ -158,6 +154,47 @@ a.dropdown-item {
     left: 19px;
     bottom: 32px;
 }
+
+/* css menu */
+.sub_header {
+    width: 100%;
+    height: 40%;
+
+
+    display: flex;
+    text-align: center;
+}
+ul.menu{
+    display: flex;
+    list-style: none;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+}
+
+.menu a{
+    width: 100%;
+    margin: auto;
+    color:  rgb(0, 0, 0);
+    text-decoration: none;
+    text-transform: uppercase;
+    display: inline-block;
+    padding: 10px;
+    font-size: 14px;
+    transition: 0.4s;
+}
+.menu a:hover{
+    /* background-color: rgb(128,128,128); */
+    padding-top: 7px;
+    padding-bottom: 12px;
+ 
+}
+
+
+
+
+
+/* hết css menu */
 .duoiheader{
     background-color: #494679;
     height: 50px;
