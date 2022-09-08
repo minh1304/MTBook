@@ -5,6 +5,13 @@
     'Segoe UI';
 }
 
+font {
+    /* margin-top: 20px; */
+    /* padding: 10px; */
+    /* font-size: 45px; */
+    /* display: block; */
+}
+
 div#pd-widgets {
     /* margin-top: 42px; */
 }
@@ -65,13 +72,13 @@ h4 {font-size: 20px;/* margin-left: -65px; */font-weight: bold;margin-top: 0px;/
 h4 {}
 
 p {
-    font-weight: bold;
+    /* font-weight: bold; */
 }
 
 
 body, html{
     /* background-color:  #494679; */
-    background-color: gray;
+    background-color: white;
     width: 100%;
     overflow-x: hidden;
     z-index: 1;
@@ -618,4 +625,84 @@ span.pd-label.pd-mail.pd-tooltip-text {
     opacity: 1;
     transition: 0.5s;
 
+}
+
+
+
+/* saller of the week */
+.col-span-2 {
+    grid-column: span 2 / span 2;
+}
+.pb-4 {
+    padding-bottom: 1rem;
+}
+.items-start {
+    display: block;
+    align-items: center;
+
+}
+.items-start a{/* padding: 15px; *//* margin-top: 10px; */margin-right: 250px;height: 60px;FONT-WEIGHT: 600;text-decoration: none;font-size: 36px;color: #494679;padding: 1;}
+
+a.show_list_book {position: relative;}
+.items-start a:hover{
+    color: #494679;
+
+}
+.flex-wrap {
+    flex-wrap: wrap;
+}
+.flex {
+    display: flex;
+}
+.booklist-title {
+    font-family: GT Super Bold, serif;
+    color: var(--color-secondary-dark);
+    font-size: 28px;
+    letter-spacing: -0.6px;
+    line-height: 37px;
+}
+.break-words {
+    overflow-wrap: break-word;
+}
+.text-left {
+    text-align: left;
+}
+.overflow-hidden {
+    overflow: hidden;
+}
+.ml-3 {
+    margin-left: 0.75rem;
+}
+.mr-2 {
+    margin-right: 0.5rem;
+}
+.flex-1 {
+    flex: 1 1 0%;
+}
+
+.btn_look.btn-secondary{
+    background-color: #de2454;
+    width: 194px;
+    font-size: 25px;
+    border-radius: 50px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    margin-right: 125px;
+    text-transform: uppercase;
+    position: absolute;
+}
+.btn_look.btn-secondary:hover{
+    background-color: #821631;
+
+}
+
+.btn_look.btn-secondary p{
+    /* padding: 0px 10px; */
+    font-size: 20px;
+    height: 14px;
+}
+.section {
+    background-size:
+    cover;
+    margin-top: 15px;
 }

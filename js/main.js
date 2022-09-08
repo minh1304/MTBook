@@ -29,9 +29,9 @@ document.addEventListener("DOMContentLoaded",function(){
                 trangthai="duoi150";
             }
         }
-    })
 
-    
+
+    })
 
     //Hiện nội dung thanh bên phải (tel vs amil)
 
