@@ -73,11 +73,13 @@ body, html{
 
 .navbar  .header ._1cot.logo {
 
-background: border-box;
+margin-top: -10px;
+
+/* margin-bottom: 28px; */
 
 float: left;
 
-background: border-box;
+/* background: border-box; */
 }
 .navbar .header ._1cot.logo .navbar_brand img {
     width: 60%;
@@ -175,6 +177,9 @@ ul.menu{
     
 
 }
+.menu ul li {
+    position: relative;
+}
 
 .menu a{
     width: 100%;
@@ -182,19 +187,10 @@ ul.menu{
     color:  rgb(0, 0, 0);
     text-decoration: none;
     display: inline-block;
-    padding: 10px;
+    padding: 10px 30px;
     font-size: 17px;
     /* transition: 0.4s; */
-
 }
-.menu a:hover{
-    /* background-color: rgb(128,128,128); */
-    padding-top: 7px;
-    padding-bottom: 12px;
-    border-bottom: 2px solid #494679;
- 
-}
-
 
 .menu .menu-dropdown {
     /* border-top: none; */
@@ -204,7 +200,7 @@ ul.menu{
     height: 223px;
     float: left;
     width: 60%;
-    transform: translateX(-44%);
+    transform: translateX(-42%);
     background-color: #fff;
     border-bottom-left-radius: 6px;
     border-bottom-right-radius: 6px;
@@ -215,23 +211,14 @@ ul.menu{
     /* min-width: 100%; */
     position: absolute;
     z-index: 20;
-
-
-
     opacity: 0;
     visibility: hidden;
-    
-}
-#active {
-    opacity: 1;
-    visibility: visible;
-
 }
 .menu .menu-dropdown-list {
     /* width: 100%; */
     /* height: 100%; */
     /* border-top: none; */
-    /* margin-top: 1px; */
+    margin: 10px;
     /* height: 330px; */
     /* align-items: flex-start !important; */
     /* flex-grow: 1 !important; */
@@ -256,8 +243,24 @@ ul.menu{
     font-style: inherit;
     font-weight: inherit;
 }
-/* hết css menu */
 
+
+
+
+.menu a:hover  {
+    /* background-color: rgb(128,128,128); */
+    padding-top: 7px;
+    padding-bottom: 12px;
+    border-bottom: 2px solid #494679;
+
+}
+.menu li:hover .menu-dropdown {
+    opacity: 1;
+    visibility: visible;
+}
+
+
+/* háº¿t css menu */
 
 
 
@@ -267,29 +270,42 @@ ul.menu{
     width: 100%;
     padding: 15px 0px;
     box-sizing: border-box;
-    display: block;
     transition: 0.4s;
+    display: flex;
 }
-.duoiheader .row{
+.duoiheader .icon {
+    color: white;
+    display: flex;
+    /* margin: auto; */
+    float: left;
+    padding-left: 20px;
+}
+.duoiheader .icon i{
+    margin-right: 10px;
+    margin-top: 4px;
+}
+
+/* 
+.duoiheader .dong{
     color: white;
     display: flex;
     width: 100%;
 
 }
 
-.col {
+.cot {
     color: white;
     width: 100%;
     display: flex;
     justify-content: center;
 
 }
-.duoiheader .row .col a{
+.duoiheader .dong .cot a{
     color: white;
     margin-right: 10px;
     text-decoration: none;
 }
-
+ */
 
 
 
@@ -320,7 +336,7 @@ span.pd-label.pd-tel.pd-tooltip-text {
     top: 0;
     width: 100%;
     height: 100%;
-    /* để lên cao nó sẽ kh tác động đc phía dưới */
+    /* Ä‘á»ƒ lÃªn cao nÃ³ sáº½ kh tÃ¡c Ä‘á»™ng Ä‘c phÃ­a dÆ°á»›i */
     z-index: 999999; 
     display: none;
 }
