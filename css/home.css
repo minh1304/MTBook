@@ -1,9 +1,38 @@
 *{
     margin: 0;
     padding: 0;
-    font-family:'Segoe UI';
+    font-family:
+    'Segoe UI';
 }
 
+div#pd-widgets {
+    /* margin-top: 42px; */
+}
+
+.pd-bar {
+}
+
+.carousel-inner {
+    height: 420px;
+}
+
+div#carouselId {
+    /* height: 300px; */
+}
+.carousel-item {
+
+}
+.carousel-item a{
+    width: 100%;
+    height: 100%;
+
+}
+
+.carousel-item img {
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+}
 
 li.nav-item.giohang {
     /* text-decoration: none; */
@@ -50,6 +79,7 @@ body, html{
 }
 /* css cho navbar */
 .navbar{
+    z-index: 10;
     background-color: white;
     height: 130px;
     width: 100%;
@@ -259,7 +289,7 @@ ul.menu{
 }
 
 
-/* háº¿t css menu */
+/* hÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚ÂºÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¿t css menu */
 
 
 
@@ -309,12 +339,12 @@ ul.menu{
 
 
 .pushdy-widget-button {
-    margin: 5px auto;
+    /* margin-top: -83px; */
+    margin: 5px;
     cursor: pointer;
     background-size: 100%;
     border-radius: 50%;
     position: relative;
-
 }
 
 span.pd-label.pd-tel.pd-tooltip-text {
@@ -335,8 +365,10 @@ span.pd-label.pd-tel.pd-tooltip-text {
     top: 0;
     width: 100%;
     height: 100%;
-    /* Ä‘á»ƒ lÃªn cao nÃ³ sáº½ kh tÃ¡c Ä‘á»™ng Ä‘c phÃ­a dÆ°á»›i */
-    z-index: 999999; 
+    /* ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¾ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€¹Ã…â€œÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â»ÃƒÆ’Ã¢â‚¬Â ÃƒÂ¢Ã¢â€šÂ¬Ã¢â€žÂ¢ lÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Âªn cao nÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â³ sÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚ÂºÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â½ kh tÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¡c ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¾ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€¹Ã…â€œÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â»ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¾Ãƒâ€šÃ‚Â¢ng ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¾ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€¹Ã…â€œc phÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â­a dÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â°ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â»ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€šÃ‚Âºi */
+    z-index: 999999;
+    /* transform: translateY(83%); */
+    /* margin-right: -55px; */
     display: none;
 }
 .pd-shadow{
