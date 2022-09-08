@@ -94,10 +94,9 @@ float: left;
 }
 
 .navbar .header ._1cot.form_timkiem .input{
+    margin-left: 14px;
     width: 90%;
     border-style: none;
-
-
 }
 
 .navbar .header ._1cot.form_timkiem .icon{
@@ -278,7 +277,7 @@ ul.menu{
     display: flex;
     /* margin: auto; */
     float: left;
-    padding-left: 20px;
+    padding-left: 15px;
 }
 .duoiheader .icon i{
     margin-right: 10px;
