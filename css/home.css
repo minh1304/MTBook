@@ -351,21 +351,44 @@ ul.menu{
     cursor: pointer;
     background-size: 100%;
     border-radius: 50%;
-    position: relative;
 }
 
 span.pd-label.pd-tel.pd-tooltip-text {
+    /* margin-top: -17px;
     right: 60px;
+    border-radius: 5px;
+    padding: 2px 7px;
+    opacity: 0; */
     border-radius: 5px;
     padding: 7px 7px;
     position: absolute;
     opacity: 0;
+    right: 60px;
+    margin-top: -22px;
 }
-.pushdy-widget-button.pd-tel:hover span{
+
+span.pd-label.pd-tel.pd-tooltip-text.test1{
+    opacity: 1;
+    transition: 0.5s;
+}
+span.pd-label.pd-mail.pd-tooltip-text {
+    margin-top: -17px;
+    right: 60px;
+    border-radius: 5px;
+    padding: 2px 7px;
+    opacity: 0;
+}
+
+span.pd-label.pd-mail.pd-tooltip-text.test1{
+    opacity: 1;
+    transition: 0.5s;
+}
+/* span.pd-label.pd-tel.pd-tooltip-text{ */
+/* .pushdy-widget-button.pd-tel:hover span{
     opacity: 1;
     transition: 0.5s;
 
-}
+} */
 .pd-overlay{
     position: fixed;
     left: 0;
@@ -620,6 +643,7 @@ span.pd-label.pd-mail.pd-tooltip-text {
     opacity: 0;
     /* margin-right: 106px; */
     right: 60px;
+    margin-top: 30px;
 }
 .pushdy-widget-button.pd-mail:hover span{
     opacity: 1;

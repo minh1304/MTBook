@@ -7,10 +7,12 @@ document.addEventListener("DOMContentLoaded",function(){
     var noidunghienlen2 = document.getElementById('pd-popupMail-container');
     var tatnoidung = document.querySelectorAll('.pd-close-tawk');
     var nutt = document.querySelectorAll('.pushdy-widget-button');
-    console.log(nutt);
     var ndhl= document.querySelectorAll('.pd-overlay');
-    console.log(ndhl);
 
+    var test0 = document.querySelector('.pushdy-widget-button.pd-tel');
+    var test = document.querySelector('.pd-label.pd-tel.pd-tooltip-text');
+    var test1 = document.querySelector('.pushdy-widget-button.pd-mail');
+    var test2 = document.querySelector('.pd-label.pd-mail.pd-tooltip-text');
     window.addEventListener('scroll',function(){
         if(this.window.pageYOffset >150)
         {
@@ -47,7 +49,23 @@ document.addEventListener("DOMContentLoaded",function(){
     tatnoidung[1].onclick = () =>{
         noidunghienlen2.style.display = 'none';
     }
-   
+    
+    test0.onmouseover = function(){
+        test.classList.add('test1');
+    };
+    test0.onmouseout = function(){
+        test.classList.remove('test1');
+    };
+    test1.onmouseover = function(){
+        test2.classList.add('test1');
+    };
+    test1.onmouseout = function(){
+        test2.classList.remove('test1');
+    };
+
+
+
+
 
 
 
